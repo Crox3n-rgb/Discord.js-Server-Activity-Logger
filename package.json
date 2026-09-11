@@ -1,0 +1,19 @@
+{
+  "name": "discord-audit-log-bot",
+  "version": "1.0.0",
+  "description": "Discord.js v14 server audit and moderation logging bot starter.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "keywords": ["discord", "discord.js", "audit-log", "moderation"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
